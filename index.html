@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ead Hassan || Web developer and UI/UX Designer</title>
+
+<link href="https://fonts.googleapis.com/css?family=Bungee|Cairo|Lalezar|Jomhuria|Russo+|Lemonada|Montserrat+Alternates|Montserrat+Subrayada" rel="stylesheet">
+<link href="http://www.jqueryscript.net/css/top.css" rel="stylesheet" type="text/css">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+<body style="overflow-x: hidden;">
+  	<div id="banner">
+	    <img src="assets/images/my_rocket.png" alt="rocket" style="margin: 200px 0px 0px 25%;">
+	    <div class="intro_txt">
+	    	<h3 class="flux" title="World Design">Ead Hassan</h3>
+	    	<h1 class="tlt">
+			    <ul class="texts">
+			        <li>Web developer</li>
+			        <li>Web designer</li>
+			        <li>Graphic designer</li>
+			    </ul>
+			</h1>
+	    </div>
+  	</div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="assets/js/jquery.fittext.js"></script>
+	<script src="assets/js/jquery.lettering.js"></script>
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script src="assets/js/jquery.textillate.js"></script>
+	<script>
+		$('document').ready(function(){
+			$('.tlt').textillate({
+				loop: true, 
+				type: 'char', 
+				out: { effect: "bounceOutRight", reverse: true },  // Enter any class from animate.css
+				in: { effect: "bounceInLeft"} // Enter any class from animate.css
+			});
+
+		});
+	</script>
+
+</body>
+</html>
